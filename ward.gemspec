@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Sandro Padin}]
   s.date = %q{2011-11-21}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Finds the ward and alderman for any Chicago address.}
   s.email = %q{sandropadin@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -29,13 +29,14 @@ Gem::Specification.new do |s|
     "test/fixtures/response.json",
     "test/helper.rb",
     "test/test_ward.rb",
-    "test/test_ward_data.rb"
+    "test/test_ward_data.rb",
+    "ward.gemspec"
   ]
   s.homepage = %q{http://github.com/spadin/ward}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Finds the ward and alderman for any Chicago address.}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
