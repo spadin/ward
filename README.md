@@ -4,7 +4,15 @@
 
 Gets ward information for any given address in the city of Chicago.
 
+### Installation
+
+Insert the following into your Gemfile.
+
+    gem "ward-chicago", "~> 0.1.1"
+
 ### Usage
+
+    require 'ward' # NOTE
 
     ward = Ward.new
     ward.find('1 N. State St., Chicago, Il 60602')
