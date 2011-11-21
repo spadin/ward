@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ward"
   gem.homepage = "http://github.com/spadin/ward"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Finds the ward and alderman for any Chicago address.}
+  gem.description = %Q{Finds the ward and alderman for any Chicago address.}
   gem.email = "sandropadin@gmail.com"
   gem.authors = ["Sandro Padin"]
   # dependencies defined in Gemfile
