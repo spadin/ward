@@ -14,7 +14,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "ward"
+  gem.name = "ward-chicago"
   gem.homepage = "http://github.com/spadin/ward"
   gem.license = "MIT"
   gem.summary = %Q{Finds the ward and alderman for any Chicago address.}
