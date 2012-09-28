@@ -25,12 +25,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0.0)
+  bundler
   geocoder
   httparty
-  jeweler (~> 1.6.4)
+  jeweler
   json
   mocha
+  rake
   rcov
   rdoc
   shoulda
